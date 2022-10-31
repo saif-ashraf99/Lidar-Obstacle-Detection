@@ -81,6 +81,4 @@ The previous exercises have created a processing pipeline for detecting the obst
 
 2. Create `ProcessPointClouds::ClusteringEuclidean` and its helper function `ProcessPointClouds::clusterHelper` in the `processPointClouds.cpp`, which reuses the Euclidean clustering with KD-Tree with some modification from the quiz. And call this clustering function in the `cityBlock()` of `environment.cpp`. 
 
-3. Before building the final project, make sure the macro `CUSTOM_METHOD` is defined in the `environment.cpp` so that the custom implementations in the Step 1 and 2 are used. Otherwise, defining macro `PCL_METHOD` will use the segmentation and clustering functions provided by PCL library.
-
 <img src="media/obstacle-detection-fps-final.gif" width="800" height="400" />
